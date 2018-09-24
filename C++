@@ -1,0 +1,26 @@
+#include <iostream>
+
+using namespace std;
+
+int main() {
+    cout << "Introduce la Ubicación del Punto A" << endl;
+    double rX1;
+    
+    cin >> rX1;
+    double rY1;
+    
+    cin >> rY1;
+    cout << "Introduce la Ubicación del Punto B" << endl;
+    double rX2;
+    
+    cin >> rX2;
+    double rY2;
+    
+    cin >> rY2;
+    double rFormula;
+    
+    rFormula = (rY2 - rY1) / (rX2 - rX1);
+    cout << "La Pendiente de la Recta es: ";
+    cout << rFormula << endl;
+    return 0;
+}
